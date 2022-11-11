@@ -6,3 +6,4 @@ declare -a bs=("Best School" "Best School" "Best School" "Best School" "Best Sch
 for val in "${bs[@]}"; do
 echo "$val"
 done  
+
