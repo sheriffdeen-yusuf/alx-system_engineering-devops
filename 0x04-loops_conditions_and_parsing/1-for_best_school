@@ -1,9 +1,6 @@
 #!/usr/bin/env bash
-# This script is displaying "Best School" 10 times
-
-declare -a bs=("Best School" "Best School" "Best School" "Best School" "Best School" "Best School" "Best School" "Best School" "Best School" "Best School")
-
-for val in "${bs[@]}"; do
-echo "$val"
-done  
-
+# Using for loop to print a string
+for i in $(seq 1 10); do
+	echo "Best School"
+	i="$((i))"
+done;
